@@ -1,0 +1,40 @@
+
+
+<form #simpleForm="ngForm" (ngSubmit)="getValues(simpleForm.value);">
+	 
+	 
+   <label> First name: </label><br>
+    <input type="text" name="firstname" ngModel><br><br><!--code for first name section-->
+    <label> Last Name: </label> <br>
+    <input type="text" name="last name" ngModel><br><br><!--code for Last name section-->
+    <label> Email: </label><br>
+    <input type="email" name="Email address" ngModel><br><br><!--code for email section-->
+    <label> Contact Number: </label><br>
+    <input type="text" name="contact number" ngModel><br><br><!--code for contact number section-->
+    <label>Address:</label><br>
+    <textarea id="address" name="address" rows="3" cols="30" ngModel> </textarea><br><br><!--code for address section-->
+
+    <label>Username:</label><br>
+    <input type="text" name="user name" id="user name" ngModel><br><br><!--code for username section-->
+
+    <label>Password:</label><br>
+    <input type="password" id="pwd" name="userpassword" ngModel><br>
+    <input type ="hidden" value="hidden value" name="my hidden text"><br><!--code for password section-->
+
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="Female" ngModel>Male<br>
+    <input type="radio" name="gender" value="Female">Female<br><br> <!--radio button for grnder-->
+
+    <label> Qualfication: </label><br>
+    <input type="text" name="firstname" ngModel><br><br>
+
+    <label> Experiance </label><br>
+    <input type="text" name="firstname" ngModel><br><br>
+
+    <input type="Submit" value="Submit"> <!--made the check box  for coding language section-->
+
+  </form>
+  
+
+
+    
